@@ -10,6 +10,6 @@ public class Program31 {
 
         MyClass obj=new MyClass();
         obj.getNames(name);
-        Applet
+        
     }
 }
