@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class Program26 {
+ class Program26 {
 public static void main(String[] args) throws IOException {
     
 
@@ -11,7 +11,6 @@ public static void main(String[] args) throws IOException {
     InputStreamReader isr1=new InputStreamReader(System.in);
     BufferedReader br1=new BufferedReader(isr1);
 
-    System.out.println("Buffer Reader ");
     String str1,str2,str3;
     System.out.print("Enter String 1 = ");
     str1=br1.readLine();
