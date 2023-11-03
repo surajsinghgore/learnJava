@@ -1,16 +1,9 @@
 import java.awt.*;
-import javax.swing.*;
+import java.applet.*;
  
-public class Program40 extends JApplet {
+public class Program40 extends Applet {
  
-    public void init()
-    {
-        // set size
-        setSize(400, 400);
- 
-        repaint();
-    }
- 
+    
     // paint the applet
     public void paint(Graphics g)
     {
