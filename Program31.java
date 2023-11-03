@@ -1,3 +1,5 @@
+import java.applet.Applet;
+
 import myPackage.MyClass;
 
 public class Program31 {
@@ -8,5 +10,6 @@ public class Program31 {
 
         MyClass obj=new MyClass();
         obj.getNames(name);
+        Applet
     }
 }
