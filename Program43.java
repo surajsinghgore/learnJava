@@ -58,7 +58,8 @@ add(c1);
 add(c2);
 add(c3);
 
-
+// choice
+System.out.println("\n");
 add(lb5);
 country.add("India");
 country.add("Australia");
