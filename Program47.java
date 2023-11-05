@@ -1,7 +1,6 @@
 import java.applet.Applet;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 public class Program47 extends Applet implements ActionListener {
     Label lb1 = new Label("Num 1: ");
