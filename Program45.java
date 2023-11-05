@@ -2,7 +2,6 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class Program45 extends Applet {
-    Label lb1 = new Label("FlowLayout");
     BorderLayout bl = new BorderLayout();
     Button btn1 = new Button("NORTH ");
     Button btn2 = new Button("EAST");
@@ -10,7 +9,7 @@ public class Program45 extends Applet {
     Button btn4 = new Button("WEST");
 
     public void init() {
-        add(lb1);
+       
         setLayout(bl);
         add(btn1,BorderLayout.NORTH);
         add(btn2,BorderLayout.EAST);
