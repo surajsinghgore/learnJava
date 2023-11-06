@@ -18,7 +18,7 @@ public class ConnectionToDb {
    
     String URl="jdbc:mysql://localhost:3306/my_db";
     String username="root";
-    String password="Suraj@3224";
+    String password="password";
     Connection con=DriverManager.getConnection(URl, username, password);
     System.out.println("Successfully Connected");
      } 
