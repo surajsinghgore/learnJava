@@ -2,7 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-public class Program53 {
+public class Delete {
     public static void main(String[] args) {
         String URl = "jdbc:mysql://localhost:3306/my_db";
         String username = "root";
