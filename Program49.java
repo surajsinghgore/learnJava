@@ -2,7 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-public class CreateTable {
+public class Program49 {
    public static void main(String[] args) {
     String URl="jdbc:mysql://localhost:3306/my_db";
     String username="root";
