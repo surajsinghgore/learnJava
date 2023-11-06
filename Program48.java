@@ -8,7 +8,7 @@ public class Program48 {
     String password="password";
     try {
     Connection con=DriverManager.getConnection(URl, username, password);
-    System.out.println("Successfully Connected");
+    System.out.println("Successfully Connected To Database");
 } 
 catch (Exception e) {
    System.out.println(e);
