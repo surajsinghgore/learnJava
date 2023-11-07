@@ -10,7 +10,7 @@ class SubClass extends MyClass{
         System.out.println("From Sub Class");
     }
 }
-public class Prrogram22 {
+public class Program22 {
     public static void main(String[] args) {
 System.out.println("Method Overriding");
 MyClass obj1=new MyClass();
