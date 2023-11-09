@@ -6,7 +6,7 @@ public class Program49 {
    public static void main(String[] args) {
     String URl="jdbc:mysql://localhost:3306/my_db";
     String username="root";
-    String password="password";
+    String password="Suraj@3224";
     try {
     Connection con=DriverManager.getConnection(URl, username, password);
     Statement stm=con.createStatement();

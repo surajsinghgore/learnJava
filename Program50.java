@@ -14,7 +14,7 @@ public class Program50 {
             // create table
             String query = "insert into student(id,name,age,class) values (1,'suraj',19,'Bca')";
             stm.execute(query);
-            System.out.println("Table Created Successfully");
+            System.out.println("Record Insert Successfully Successfully");
         } catch (Exception e) {
             System.out.println(e);
         }
