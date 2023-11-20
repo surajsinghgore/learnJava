@@ -1,9 +1,9 @@
 import java.applet.Applet;
 import java.awt.Graphics;
 
-public class PrintString extends Applet{
+public class PrintString extends Applet {
 
-    public void paint(Graphics g){
+    public void paint(Graphics g) {
         g.drawString("Hello World", 100, 200);
     }
 }
